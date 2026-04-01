@@ -1,8 +1,8 @@
-# Automação de Inteligência e Processamento de Documentos (PDF)
+# Automação de Processamento de Documentos (PDFS)
 
 Este repositório apresenta uma solução autoral de **Processamento de Dados e Automação**, desenvolvida para otimizar o fluxo de documentos em larga escala. O projeto demonstra como transformar processos manuais de triagem em um pipeline digital eficiente, seguro e escalável.
 
-> **Nota de Integridade:** Este projeto é uma demonstração independente para portfólio. Todo o ambiente, dados e documentos são sintéticos, garantindo total isolamento de informações sensíveis e conformidade com boas práticas de privacidade.
+> **Nota de Integridade:** Este projeto é uma demonstração. Todo o ambiente, dados e documentos são sintéticos, garantindo total isolamento de informações sensíveis e conformidade com boas práticas de privacidade.
 
 ---
 
@@ -15,7 +15,7 @@ O sistema foi projetado para resolver desafios reais de gestão documental, entr
 
 ---
 
-### 🛠️ Estrutura do Projeto
+###  Estrutura do Projeto
 O fluxo de trabalho está dividido em dois núcleos principais:
 *   `gerar_pdfs_demo.py`: Engine de simulação que cria a base de dados (PDFs sintéticos) para os testes.
 *   `processar_documentos_demo.py`: O "cérebro" da automação, responsável pelo processamento, classificação e exportação final.
