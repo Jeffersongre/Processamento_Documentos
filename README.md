@@ -1,44 +1,38 @@
-# Demonstracao de Processamento de Documentos
+# Automação de Inteligência e Processamento de Documentos (PDF)
 
-Esta e uma demonstracao independente de portfolio para processamento automatizado de PDFs.
+Este repositório apresenta uma solução autoral de **Processamento de Dados e Automação**, desenvolvida para otimizar o fluxo de documentos em larga escala. O projeto demonstra como transformar processos manuais de triagem em um pipeline digital eficiente, seguro e escalável.
 
-O projeto esta totalmente isolado do ambiente de trabalho original:
-- sem imports de outros arquivos do projeto real
-- sem nomes de empresas
-- sem referencias a instituicoes especificas
-- apenas documentos sinteticos de demonstracao
+> **Nota de Integridade:** Este projeto é uma demonstração independente para portfólio. Todo o ambiente, dados e documentos são sintéticos, garantindo total isolamento de informações sensíveis e conformidade com boas práticas de privacidade.
 
-## Arquivos
+---
 
-- `gerar_pdfs_demo.py`: cria os PDFs sinteticos de input
-- `processar_documentos_demo.py`: processa os PDFs demo e gera as saidas organizadas
+###  Funcionalidades e Performance
+O sistema foi projetado para resolver desafios reais de gestão documental, entregando:
+*   **Processamento em Lote:** Leitura e extração automatizada de múltiplos arquivos PDF simultaneamente.
+*   **Identificação Inteligente:** Reconhecimento de páginas e classificação baseada em padrões de texto.
+*   **Segmentação Dinâmica:** Separação e organização de documentos por identificadores únicos, grupos e unidades.
+*   **Consolidação de Saída:** Geração automática de relatórios gerenciais (Excel) e pacotes estruturados (ZIP) para distribuição.
 
-## Estrutura de pastas
+---
 
-- `INPUT_PDFS/`: documentos sinteticos de entrada
-- `OUTPUT_TMP/PDFS_PROCESSADOS/`: PDFs processados
-- `OUTPUT_FINAL/relatorio_processamento_documentos.xlsx`: relatorio final
-- `OUTPUT_FINAL/pacote_documentos_processados.zip`: pacote ZIP com os documentos processados
+### 🛠️ Estrutura do Projeto
+O fluxo de trabalho está dividido em dois núcleos principais:
+*   `gerar_pdfs_demo.py`: Engine de simulação que cria a base de dados (PDFs sintéticos) para os testes.
+*   `processar_documentos_demo.py`: O "cérebro" da automação, responsável pelo processamento, classificação e exportação final.
 
-## Como executar
+**Organização de Diretórios:**
+*   `INPUT_PDFS/`: Repositório de entrada dos documentos brutos.
+*   `OUTPUT_TMP/`: Área de processamento intermediário.
+*   `OUTPUT_FINAL/`: Entrega final contendo o Relatório de Processamento (.xlsx) e o Pacote Estruturado (.zip).
+
+---
+
+###  Como Executar
+Certifique-se de ter o Python instalado e execute os comandos abaixo no terminal:
 
 ```powershell
+# 1. Gerar a base de documentos simulados
 python gerar_pdfs_demo.py
+
+# 2. Iniciar a automação do processamento
 python processar_documentos_demo.py
-```
-
-## O que este projeto demonstra
-
-- leitura de PDFs em lote
-- identificacao de paginas com base em texto
-- separacao de documentos por identificador
-- organizacao da saida por grupo e unidade
-- geracao de relatorio e pacote ZIP final
-
-## Seguro para mostrar publicamente
-
-- codigo-fonte
-- estrutura de pastas
-- relatorio gerado
-- PDFs sinteticos
-- capturas de tela do fluxo
